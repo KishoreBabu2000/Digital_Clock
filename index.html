@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="DigitalClock.css">
+    <script src="DigitalClock.js" defer></script>
+</head>
+<body onload="clock24Hours()">
+    <input type="button" id="But" value="12 Hours Format" onclick="changeFormat(this.value)">
+    <div id="Container24">
+        <h1 id="Time1"></h1>
+        <h1 id="Date1"></h1>
+        <h1 id="Day1"></h1>
+        <h1 id="Seconds1"></h1>
+    </div>
+    <div id="Container12">
+        <h1 id="Time2"></h1>
+        <h1 id="Date2"></h1>
+        <h1 id="Day2"></h1>
+        <h1 id="Seconds2"></h1>
+    </div>
+</body>
+</html>
